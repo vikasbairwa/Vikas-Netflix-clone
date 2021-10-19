@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.header{
+    z-index: 3;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition-timing-function: ease-in;
+    transition: all 0.3s;
+}
+.float-header{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo img{
+    height: 30px;
+    margin: 10px 20px;
+}
+#avatar img{
+    height: 30px;
+    margin: 10px 20px;
+}
+
+.rub img{
+    height: 800px;
+}
+
+

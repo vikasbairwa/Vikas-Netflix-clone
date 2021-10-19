@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&family=Ubuntu:wght@700&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.card{
+    cursor: pointer;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.hovering{
+    background-color: rgba(0, 0, 0,0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hovering img{
+    
+    width: 100%;
+}
+.blanc img{
+    
+    /* opacity: 0; */
+    width: 0%;
+}
+
+.normal{
+    flex: 0 0 auto;
+    object-fit: cover;
+    overflow-y: hidden;
+    width:10rem;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    transition: 500ms;
+}
+.normal:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.cover{
+    /* position: absolute; */
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+    background-size: cover;
+}
