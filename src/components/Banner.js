@@ -28,10 +28,9 @@ function Banner() {
         // eslint-disable-next-line
     }, [])
 
-    const backdrop = bannerMovie.backdrop_path? bannerMovie.backdrop_path:'/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg';
     return (
 
-        <div className="banner" style={{ backgroundImage: `url(https://image.tmdb.org/t/p/w1280${backdrop})` }} >
+        <div className="banner" style={{ backgroundImage: `url(https://image.tmdb.org/t/p/w1280${bannerMovie.backdrop_path})` }} >
             <div className="content">
 
                 <h1 className="title">{bannerMovie.title ? bannerMovie.title : bannerMovie.original_title}</h1>
